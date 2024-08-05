@@ -1,0 +1,22 @@
+activity_data, a table containing columns of "Activity.ID" and "Activity"
+features, a table reading the "Function.ID" and "Functions"
+
+training_data, a table read from X_train.txt, with columns separated by "Functions", containing the data
+training_label, a table read from Y_train.txt, containing the activity id
+training_subject, a tale read from subject_train.txt, containing the subject id
+
+test_data, a table read from X_test.txt, with columns separated by "Functions", containing the data
+test_label, a table read from Y_test.txt, containing the activity id
+test_subject, a tale read from subject_test.txt, containing the subject id
+
+table_data, row bind containing training_data and test_data
+table_label, row bind containing training_label and test_label
+table_subject, row bind containing training_subject and test_subject
+
+table, a table containing the full data, subjects, and activity. Later on the table contains only mean, std, Subject.ID and Activity columns
+
+table_2, a table containing columns with mean and std
+
+table_3, a table grouped by Subject.ID and Activity, and returns the mean of all other columns
+
+final_table.txt is the final table file saved into the directory.
